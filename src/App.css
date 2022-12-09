@@ -6,10 +6,10 @@
 
 @media screen and (max-width: 800px) {
   .query {
-    font-size: 0.99rem;
+    font-size: 0.95rem;
   }
   .title-query {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   .presentacion {
     height: 90%;
