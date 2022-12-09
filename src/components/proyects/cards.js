@@ -1,11 +1,7 @@
 import React from 'react'
 
-import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/effect-cards";
-
-import { EffectCreative } from "swiper";
 
 export default function Cards({img, name, description, opacity}) {
   return (
