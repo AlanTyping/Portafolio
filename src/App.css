@@ -17,14 +17,14 @@
 }
 
 .icon {
-  height: 100px;
-  width: 100 px;
+  height: 90px;
+  width: 90px;
   cursor: pointer;
 }
 
 .icon:hover {
-  height: 120px;
-  width: 120px;
+  height: 110px;
+  width: 110px;
   transition: 100ms;
 }
 
