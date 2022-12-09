@@ -8,6 +8,8 @@ import github from './img/github.png';
 import html from './img/html.png';
 import tailwind from './img/tailwind.png';
 import css from './img/css.png';
+import fondo from './img/fondo.png';
+import mob3 from './img/mob3.png';
 
 export default function Skills() {
 
@@ -52,8 +54,8 @@ export default function Skills() {
 
     return (
         <>
-            <section className='h-screen w-[100%] flex justify-center items-center bg-[] bg-cover bg-center'
-                style={{ "backgroundImage": `url()` }}>
+            <section className='h-screen w-[100%] flex justify-center items-center bg-cover bg-center'
+                style={{ "backgroundImage": `url(${mob3})` }}>
                 <div className='max-w-[400px] min-w-[300px] max-h-screen h-[90%] rounded-[30px] min-w-[300px] p-[30px] bg-[rgba(0,0,0,0.7)]
                  text-white flex flex-col text-[1.5rem] text-center justify-evenly'>
                     <h1 className='Fjalla-One text-[2rem]'>Skills</h1>
