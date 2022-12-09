@@ -8,7 +8,6 @@ import github from './img/github.png';
 import html from './img/html.png';
 import tailwind from './img/tailwind.png';
 import css from './img/css.png';
-import mob3 from '../mob3.png'
 
 export default function Skills() {
 

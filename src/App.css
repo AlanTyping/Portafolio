@@ -4,6 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@300&family=Nunito+Sans:ital,wght@1,200&family=Poppins&family=Source+Sans+Pro:wght@300;400&display=swap');
 
+@media screen and (max-width: 800px) {
+  .query {
+    font-size: 1rem;
+  }
+  .title-query {
+    font-size: 1.6rem;
+  }
+}
+
 :root {
   --blue: rgb(0, 162, 255); /* #00a2ff */
   --orange: rgb(255, 165, 0); /* #ffa500 */
@@ -23,8 +32,8 @@
 }
 
 .icon:hover {
-  height: 110px;
-  width: 110px;
+  height: 100px;
+  width: 100px;
   transition: 100ms;
 }
 
