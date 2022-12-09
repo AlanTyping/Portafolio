@@ -11,6 +11,9 @@
   .title-query {
     font-size: 1.6rem;
   }
+  #presentacion {
+    height: 90%;
+  }
 }
 
 :root {

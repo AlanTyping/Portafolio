@@ -11,7 +11,7 @@ export default function Presentación() {
     return (
         <section id='sobre-mí' className='h-screen w-[100%] flex justify-center items-center bg-cover bg-center'
         style={{"backgroundImage": `url()`}}>
-            <div className='w-[80%] h-[80%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
+            <div className='w-[80%] presentacion h-[80%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
              text-white flex items-center flex-col text-[1.5rem] justify-evenly'>
                 <h1 className='Fjalla-One text-[2rem] title-query'>Descripción 1/2</h1>
                 <p className='Nunito-Sans query'>
