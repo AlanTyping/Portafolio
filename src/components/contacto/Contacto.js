@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Imagenes from './Imagenes.js';
+import Info from './Info.js';
 
 import cv from './img/cv.png';
 import email from './img/email.png';
@@ -10,27 +10,32 @@ import github from './img/github.png';
 
 export default function Contacto() {
 
-  const imagenes = [
+  const info = [
     {
       nombre: 'Email',
-      img: email      
-    },
-    {
-      nombre: 'cv',
-      img: cv      
+      img: email,
+      link: 'mailto:alan.a.n.r.ar@gmail.com'      
     },
     {
       nombre: 'Github',
-      img: github   
+      img: github,
+      link: 'https://github.com/AlanTyping'   
     },
     {
-      nombre: 'Linkedin',
-      img: linkedin      
+      nombre: 'cv',
+      img: cv,
+      link: ''     
     },
     {
       nombre: 'Instagram',
-      img: instagram      
-    }
+      img: instagram,
+      link: 'https://www.instagram.com/alan_anr/'      
+    },
+    {
+      nombre: 'Linkedin',
+      img: linkedin,
+      link: 'https://www.linkedin.com/in/alan-rosales-2b25a4209/'      
+    },
   ]
 
   return (
@@ -41,11 +46,12 @@ export default function Contacto() {
         text-white flex flex-col text-[1.5rem] items-center text-center justify-evenly'>
           <h1 className='Fjalla-One text-[2rem]'>Contacto</h1>
           <div className='w-[70%] h-[90%] flex justify-evenly items-center flex-wrap'>
-            {imagenes.map((i) => {
+            {info.map((i) => {
               return (
-                <Imagenes 
+                <Info
                   nombre={i.nombre}
                   img={i.img}
+                  link={i.link}
                   key={i.nombre}
                 />
               )

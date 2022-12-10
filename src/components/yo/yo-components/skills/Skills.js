@@ -1,4 +1,4 @@
-import Images from './Images.js'
+import Link from './Link.js'
 
 import React from 'react';
 import react from './img/react.png';
@@ -56,21 +56,23 @@ export default function Skills() {
         <>
             <section className='h-screen w-[100%] flex justify-center items-center bg-cover bg-center'
                 style={{ "backgroundImage": `url()` }}>
-                <div className='max-w-[400px] min-w-[300px] max-h-screen h-[85%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
+                <div className='h-[800px] w-[800px] flex items-center justify-center z-[-1] bg-[orange] rounded-[100%]'>
+                    <div className='max-w-[400px] min-w-[300px] max-h-screen h-[85%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
                  text-white flex flex-col text-[1.5rem] text-center justify-evenly'>
-                    <h1 className='Fjalla-One text-[2rem]'>Skills</h1>
-                    <div className='w-[100%] h-[90%] flex justify-evenly items-center flex-wrap'>
-                        {imagenes.map((i) => {
-                            return (
-                                    <Images
+                        <h1 className='Fjalla-One text-[2rem]'>Skills</h1>
+                        <div className='w-[100%] h-[90%] flex justify-evenly items-center flex-wrap'>
+                            {imagenes.map((i) => {
+                                return (
+                                    <Link
                                         key={i.name}
                                         link={i.link}
                                         img={i.img}
                                         name={i.name}
                                         react={i.react}
                                     />
-                            )
-                        })}
+                                )
+                            })}
+                        </div>
                     </div>
                 </div>
             </section>

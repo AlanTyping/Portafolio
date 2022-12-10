@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Images({link, img, name, react}) {
+export default function Link({link, img, name, react}) {
   return (
     <>
       <a href={link} target="_blanck">
