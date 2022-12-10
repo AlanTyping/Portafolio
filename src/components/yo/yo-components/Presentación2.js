@@ -7,8 +7,8 @@ import ia from '../img/ia.png';
 export default function Presentación2() {
     return (
         <>
-            <section className='h-screen w-[100%] flex justify-center items-center bg-[] bg-cover bg-center'
-                style={{ "backgroundImage": `url(${mob2})` }}>
+            <section className='h-screen w-[100%] flex bg-[#00a2ff] justify-center items-center bg-[] bg-cover bg-center'
+                style={{ "backgroundImage": `url()` }}>
                 <div className='w-[80%] presentacion h-[80%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
              text-white flex items-center flex-col text-[1.5rem] justify-evenly'>
                     <h1 className='Fjalla-One text-[2rem] title-query'>Descripción 2/2</h1>
