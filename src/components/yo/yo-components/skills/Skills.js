@@ -56,7 +56,7 @@ export default function Skills() {
         <>
             <section className='h-screen w-[100%] flex justify-center items-center bg-cover bg-center'
                 style={{ "backgroundImage": `url()` }}>
-                <div className='h-[800px] w-[800px] flex items-center justify-center z-[-1] bg-[orange] rounded-[100%]'>
+                
                     <div className='max-w-[400px] min-w-[300px] max-h-screen h-[85%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
                  text-white flex flex-col text-[1.5rem] text-center justify-evenly'>
                         <h1 className='Fjalla-One text-[2rem]'>Skills</h1>
@@ -74,7 +74,6 @@ export default function Skills() {
                             })}
                         </div>
                     </div>
-                </div>
             </section>
         </>
     )

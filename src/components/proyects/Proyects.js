@@ -18,27 +18,30 @@ import { EffectCards } from "swiper";
 export default function Proyects() {
   const cardsData = [
     {
-      name: 'TRADING TEST',
-      img: trading,
-      secondImg: quiz,
-      thirdImage: typing,
-      description: 
-      'Esta es una página símple (vanilla js), pero puramente personal, que creé en base a mis necesidades y que uso bastante seguido desde hace meses'
-    },
-    {
       name: 'FLASH TYPING',
       img: typing,
       secondImg: quiz,
       thirdImage: typing,
+      link: 'https://flashtyping.netlify.app/',
       opacity: 'opacity',
       description: 
       'Página de mecanografía con react y tailwind para testear qué tan rápido escribis con el teclado de la pc. Entretenido para pasar el rato'
+    },
+    {
+      name: 'TRADING TEST',
+      img: trading,
+      secondImg: quiz,
+      thirdImage: typing,
+      link: 'https://trading-program.netlify.app/',
+      description: 
+      'Esta es una página símple (vanilla js), pero puramente personal, que creé en base a mis necesidades y que uso bastante seguido desde hace meses'
     },
     {
       name: 'QUIZ',
       img: quiz,
       secondImg: quiz,
       thirdImage: typing,
+      link: 'https://programming-quiz-azure.vercel.app/',
       description: 
       'Página manimalista para probar tus conocimientos acerca de css y html con un par de pregutas básicas'
     }
@@ -98,10 +101,11 @@ export default function Proyects() {
         modules={[EffectCards]}
         className="mySwiper"
       >
-        {cardsData.map(({img, opacity, name, description}, index) => {
+        {cardsData.map(({img, opacity, name, link, description}, index) => {
           return(
             <SwiperSlide key={index}>
                 <Cards 
+                  link={link}
                   name={name}
                   img={img}
                   description={description}

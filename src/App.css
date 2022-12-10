@@ -128,11 +128,11 @@
 }
 
 .swiper-slide:nth-child(1n) {
-  background-color: rgb(255, 153, 0);
+  background-color: var(--blue);
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: var(--blue);
+  background-color: rgb(255, 153, 0);
 }
 
 .swiper-slide:nth-child(3n) {
