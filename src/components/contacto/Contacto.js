@@ -2,11 +2,11 @@ import React from 'react';
 
 import Info from './Info.js';
 
-import cv from './img/cv.png';
 import email from './img/email.png';
 import linkedin from './img/linkedin.png';
 import instagram from './img/instagram.png';
 import github from './img/github.png';
+import whatsapp from './img/whatsapp.png';
 
 export default function Contacto() {
 
@@ -22,12 +22,12 @@ export default function Contacto() {
       link: 'https://github.com/AlanTyping'   
     },
     {
-      nombre: 'cv',
-      img: cv,
-      link: ''     
+      nombre: 'Whatsapp',
+      img: whatsapp,
+      link: 'https://api.whatsapp.com/send?phone=541138235395'     
     },
     {
-      nombre: 'Instagram',
+      nombre: 'IG',
       img: instagram,
       link: 'https://www.instagram.com/alan_anr/'      
     },
