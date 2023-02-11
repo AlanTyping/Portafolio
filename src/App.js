@@ -117,7 +117,6 @@ function App() {
       <Inicio />
       <Yo /> 
       <Proyects />
-      <Contacto />
     </div>
   );
 }
