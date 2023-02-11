@@ -6,16 +6,16 @@ import alan from './images/alan.jpg';
 export default function Inicio() {
   return (
     <>
-      <section id='inicio' className='h-[500px] w-[100%] flex justify-center items-center bg-center bg-cover bg-no-repeat'>
-        <div className='w-full h-[500px] border-b-[20px] border-[var(--orange)] flex justify-center items-center absolute top-0 bg-center bg-cover' 
-        style={{"backgroundImage": `url(${ojo})`}}>
-          <div className={`w-[100%] h-[100%] justify-evenly flex justify-center items-center bg-[rgba(0,0,0,0.60)] text-white flex-col`}>
+      <section id='inicio' className='h-[390px] w-[100%] border-b-[10px] border-[var(--orange)] flex justify-center items-center bg-center bg-cover bg-no-repeat'>
+        <div className='w-full h-[380px] flex justify-center items-center absolute top-0 bg-center bg-cover' 
+        style={{"backgroundImage": `url(${nieve})`}}>
+          <div className={`w-[100%] h-[100%] justify-evenly p-[20px] flex justify-center items-center bg-[rgba(0,0,0,0.60)] text-white flex-col`}>
             <div className='w-full h-[200px] flex justify-center text-center flex-col'>
-              <h1 className='inicio-h1 text-[4rem] Fjalla-One'>ALAN ROSALES</h1>
-              <h2 className='inicio-h2 text-[2.5rem] text-[#82c9f1]'>FRONT-END DEVELOPER</h2>
+              <h1 className='inicio-h1 text-[3.5rem] Fjalla-One'>ALAN ROSALES</h1>
+              <h2 className='inicio-h2 text-[2rem] text-[#82c9f1]'>FRONT-END DEVELOPER</h2>
             </div>
             <div 
-              className='min-h-[200px] min-w-[200px] rounded-[10%] border-[4px] bg-center bg-cover bg-no-repeat' 
+              className='h-[180px] img w-[180px] rounded-[10%] border-[4px] bg-center bg-cover bg-no-repeat' 
               style={{"backgroundImage": `url(${alan})`}}>
             </div>
           </div>

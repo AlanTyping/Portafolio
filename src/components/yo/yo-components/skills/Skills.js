@@ -10,6 +10,7 @@ import tailwind from './img/tailwind.png';
 import css from './img/css.png';
 import fondo from './img/fondo.png';
 import mob3 from './img/mob3.png';
+import skills from './img/skills.jpg';
 
 export default function Skills() {
 
@@ -55,7 +56,7 @@ export default function Skills() {
     return (
         <>
             <section className='h-screen w-[100%] flex justify-center items-center bg-cover bg-center'
-                style={{ "backgroundImage": `url()` }}>
+                style={{ "backgroundImage": `url(${skills})` }}>
                 
                     <div className='max-w-[400px] min-w-[300px] max-h-screen h-[85%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
                  text-white flex flex-col text-[1.5rem] text-center justify-evenly'>

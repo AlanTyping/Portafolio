@@ -9,21 +9,21 @@ import ia from '../img/ia.png';
 
 export default function Presentación() {
     return (
-        <section id='sobre-mí' className='h-screen w-[100%] bg-[orange] flex justify-center items-center bg-cover bg-center'
-        style={{"backgroundImage": `url()`}}>
-            <div className='w-[80%] presentacion h-[80%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
+        <section id='sobre-mí' className='h-screen w-[100%] bg-[rgba(0,0,0,0.4)] flex justify-center items-center bg-cover bg-center'>
+            <div className='w-[80%] presentacion h-[80%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.6)]
              text-white flex items-center flex-col text-[1.5rem] justify-evenly'>
-                <h1 className='Fjalla-One text-[2rem] title-query'>Descripción 1/2</h1>
+                <h1 className='Fjalla-One text-[2rem] title-query'>About me 🪐</h1>
                 <p className='Nunito-Sans query'>
-                    Soy de Merlo (Buenos Aires) y tengo 18 años. <br />
-                    Aunque suene general, me gusta aprender y progresar constantemente, por lo que estoy, y seguiré,
-                    actualizando mi portafolio con nuevos proyectos y/o skills que se me vengan a la mente.
+                    I'm a 18 years old guy. Constantly setting differents goals
+                    just by thinking into projects that i consider to be
+                    interesting. So, i can optimize my learning process just by actually learning
+                    the stuff that i need in order to persue my goals.
                 </p>
                 <p className='Nunito-Sans query'>
-                    Soy una persona disciplinada y estoy constantemente poniendome objetivos en diferentes áreas,
-                    que siempre cumplo o me esfuerzo por cumplir. El hecho de alcanzarlos, me motiva a seguir avanzando
-                    y ponerme objetivos cuyos requerimientos (en cuanto a los conocimientos y/o habilidades se refiere) son
-                    cada vez más exigentes y me permiten progresar o aprender.
+                    Speaking a bit about me, occasionally, i go out for a run.
+                    Often, i interact with people throw differents comunities and that helps me 
+                    to be more socially active and learn new stuff at the time of providing some value. I also like playing piano
+                    and solve the rubik's cube, i think that those and also programming, are my main hobbies. 
                 </p>
             </div>
         </section>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Info from './Info.js';
 
+import mob3 from './img/mob3.png';
 import email from './img/email.png';
 import linkedin from './img/linkedin.png';
 import instagram from './img/instagram.png';
@@ -41,7 +42,7 @@ export default function Contacto() {
   return (
     <>
       <section id='contacto' className='h-screen w-full flex bg-[#00a2ff] justify-center items-center bg-cover bg-center'
-        style={{ "backgroundImage": `url()` }}>
+        style={{ "backgroundImage": `url(${mob3})` }}>
         <div className='max-w-[400px] min-w-[300px] max-h-screen h-[85%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.7)]
         text-white flex flex-col text-[1.5rem] items-center text-center justify-evenly'>
           <h1 className='Fjalla-One text-[2rem]'>Contacto</h1>

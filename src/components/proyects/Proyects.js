@@ -10,6 +10,7 @@ import "swiper/css/effect-cards";
 import trading from './images/trading.png';
 import quiz from './images/quiz.png';
 import typing from './images/typing.png';
+import weather from './images/weather.png';
 
 // import required modules
 import { EffectCreative } from "swiper";
@@ -20,8 +21,6 @@ export default function Proyects() {
     {
       name: 'FLASH TYPING',
       img: typing,
-      secondImg: quiz,
-      thirdImage: typing,
       link: 'https://flashtyping.netlify.app/',
       opacity: 'opacity',
       description: 
@@ -30,8 +29,6 @@ export default function Proyects() {
     {
       name: 'TRADING TEST',
       img: trading,
-      secondImg: quiz,
-      thirdImage: typing,
       link: 'https://trading-program.netlify.app/',
       description: 
       'Esta es una página símple (vanilla js), pero puramente personal, que creé en base a mis necesidades y que uso bastante seguido desde hace meses'
@@ -39,62 +36,21 @@ export default function Proyects() {
     {
       name: 'QUIZ',
       img: quiz,
-      secondImg: quiz,
-      thirdImage: typing,
       link: 'https://programming-quiz-azure.vercel.app/',
       description: 
       'Página manimalista para probar tus conocimientos acerca de css y html con un par de pregutas básicas'
+    },
+    {
+      name: 'Weather-app',
+      img: weather,
+      link: 'https://weather-app-opal-ten.vercel.app/',
+      description: 
+      'Con este proyecto, pongo en práctica el llamado a una API externa. Uso axios porque me parece el mejor método'
     }
   ]
   return (
     <>
-      <section id='proyectos' className='h-screen w-[100%] flex justify-center items-center'>
-            {/* {cardsData.map(({name, img, description}) => {
-              return (
-                <Cards 
-                  name={name}
-                  img={img}
-                  description={description}
-                />
-              )
-            })} */}
-            {/* <Swiper
-        grabCursor={true}
-        effect={"creative"}
-        creativeEffect={{
-          // prev: {
-          //   shadow: true,
-          //   translate: [0, 0, -400],
-          // },
-          // next: {
-          //   translate: ["100%", 0, 0],
-          // },
-
-
-          prev: {
-            shadow: true,
-            translate: ["-125%", 0, -800],
-            rotate: [0, 0, -90],
-          },
-          next: {
-            shadow: true,
-            translate: ["125%", 0, -800],
-            rotate: [0, 0, 90],
-          },
-        }}
-        modules={[EffectCreative]}
-        className="h-[300px] w-[600px] rounded-[30px]"
-      >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper> */}
+      <section id='proyectos' className='h-screen w-[100%] flex justify-center items-center bg-[#061f2e]'>
       <Swiper
         effect={"cards"}
         grabCursor={true}
