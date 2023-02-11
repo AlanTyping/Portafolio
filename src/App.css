@@ -142,18 +142,12 @@
   background-color: #0a323c;
 }
 
-@media (max-height: 800px) {
-  .swiper {
-    height: 400px;
-  }
-}
-
 @media (max-width: 630px) {
   .project-cards {
   }
   .swiper {
     height: 77vh;
-    max-height: 510px;
+    max-height: 450px;
     width: 70%;
   } 
   .presentacion {
@@ -162,6 +156,9 @@
   .img {
     height: 150px;
     width: 150px;
+  }
+  #card-description {
+    top: 150px;
   }
   .inicio-h1 {
     font-size: 3rem;
