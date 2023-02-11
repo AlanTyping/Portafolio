@@ -111,7 +111,7 @@
 
 .swiper {
   width: 313px;
-  height: 500px;
+  height: 76vh;
   min-width: 260px;
 }
 
@@ -143,6 +143,10 @@
 }
 
 @media (max-width: 630px) {
+  .swiper {
+    height: 55vh;
+    width: 80%;
+  } 
   .presentacion {
     max-height: 600px;
   }

@@ -8,7 +8,7 @@ export default function Cards({img, name, description, link, opacity}) {
     <>
     <div className={`h-full w-full flex justify-center items-center flex-col m-1`}>
         <div className='w-[80%] z-10 min-w-[200px] h-[190px] bg-center bg-contain bg-no-repeat flex justify-center fixed top-0 m-[20px]'>
-          <img src={`${img}`} className='rounded-[30px] border-[2px]'></img>
+          <img src={`${img}`} className='rounded-[15px] border-[2px]'></img>
         </div>
         <div className={`flex text-start rounded-[10px] proyectos w-full h-[290px] p-[30px] ${opacity} fixed top-[210px] flex-col`}>
           <h2 className='text-[2rem] Fjalla-One'>{name}</h2>
