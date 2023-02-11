@@ -106,10 +106,6 @@
   background-color: var(--blue);
 }
 
-;
-
-::-webkit-scrollbar-track {}
-
 ::-webkit-scrollbar-thumb {
   background-color: var(--orange);
   border-radius: 30px;
@@ -124,6 +120,7 @@
 .swiper {
   width: 313px;
   height: 76vh;
+  max-height: 500px;
   min-width: 260px;
 }
 
@@ -145,11 +142,11 @@
 }
 
 .swiper-slide:nth-child(1n) {
-  background-color: var(--blue);
+  background-color: #11516d;
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: rgb(255, 153, 0);
+  background-color: #0d2159;
 }
 
 .swiper-slide:nth-child(3n) {

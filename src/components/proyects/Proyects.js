@@ -11,6 +11,7 @@ import trading from './images/trading.png';
 import quiz from './images/quiz.png';
 import typing from './images/typing.png';
 import weather from './images/weather.png';
+import cohere from './images/cohere.png';
 
 // import required modules
 import { EffectCreative } from "swiper";
@@ -27,11 +28,10 @@ export default function Proyects() {
         'Página de mecanografía con react y tailwind para testear qué tan rápido escribis con el teclado de la pc. Entretenido para pasar el rato'
     },
     {
-      name: 'TRADING TEST',
-      img: trading,
-      link: 'https://trading-program.netlify.app/',
-      description:
-        'Esta es una página símple (vanilla js), pero puramente personal, que creé en base a mis necesidades y que uso bastante seguido desde hace meses'
+      name: 'Co:here AI',
+      img: cohere,
+      link: 'https://midu-hackaton.vercel.app/',
+      description: 'This, is a web app using Co:here API, with two differents sections. The first, is useful for tokenizing words, and the second, has a little but cool game'
     },
     {
       name: 'QUIZ',
