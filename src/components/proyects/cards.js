@@ -15,7 +15,7 @@ export default function Cards({img, name, description, link, opacity}) {
           <p className='text-[0.90rem] text-[rgb(234,234,234)]'>{description}</p>
         </div>
         <a href={link}
-        className='w-full h-[70px] hover:text-[2rem] cursor-pointer link items-center p-[30px] border-t-[2px] flex absolute bottom-0' 
+        className='w-full h-[70px] cursor-pointer link items-center p-[30px] border-t-[2px] flex absolute bottom-0' 
         target="_blanck">
             <h2 className='text-[1.6rem] Fjalla-One'>VISITAR PÁGINA</h2>
         </a>

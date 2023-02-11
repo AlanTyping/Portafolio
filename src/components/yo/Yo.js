@@ -10,7 +10,7 @@ import ojo2 from './img/ojo2.jpg';
 export default function yo() { 
   return (
     <>
-      <div className='contenedor gradient'>
+      <div className='gradient'>
         <Presentación />
       </div>
     </>

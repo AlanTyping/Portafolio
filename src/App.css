@@ -8,18 +8,22 @@
   .query {
     font-size: 0.95rem;
   }
+
   .title-query {
     font-size: 1.6rem;
   }
+
   .presentacion {
     height: 90%;
     width: 90%;
   }
-  .icons:hover {}
 }
+
 :root {
-  --blue: rgb(0, 162, 255); /* #00a2ff */
-  --orange: rgb(255, 165, 0); /* #ffa500 */
+  --blue: rgb(0, 162, 255);
+  /* #00a2ff */
+  --orange: rgb(255, 165, 0);
+  /* #ffa500 */
 }
 
 * {
@@ -49,7 +53,9 @@
 @keyframes girarb {
   from {
     transform: rotate(0deg);
-  } to {
+  }
+
+  to {
     transform: rotate(360deg);
   }
 }
@@ -75,14 +81,19 @@
 }
 
 .link:hover {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   transition: 75ms;
 }
 
+.presentacion {
+  -webkit-box-shadow: 0px -25px 17px -7px rgba(114, 204, 240, 0.81);
+  -moz-box-shadow: 0px -25px 17px -7px rgba(114, 204, 240, 0.81);
+  box-shadow: 0px -25px 17px -7px rgba(114, 204, 240, 0.81);
+}
+
 .link:hover h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   transition: 75ms;
-  
 }
 
 .proyectos p {
@@ -93,10 +104,11 @@
   width: 2em;
   width: 0.99rem;
   background-color: var(--blue);
-};
-
-::-webkit-scrollbar-track {  
 }
+
+;
+
+::-webkit-scrollbar-track {}
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--orange);
@@ -126,6 +138,12 @@
   color: #fff;
 }
 
+#sobre-mí {
+  -webkit-box-shadow: inset 0px -26px 24px -7px rgba(6, 31, 40, 1);
+  -moz-box-shadow: inset 0px -26px 24px -7px rgba(6, 31, 40, 1);
+  box-shadow: inset 0px -26px 24px -7px rgba(6, 31, 40, 1);
+}
+
 .swiper-slide:nth-child(1n) {
   background-color: var(--blue);
 }
@@ -142,46 +160,76 @@
   background-color: #0a323c;
 }
 
+#contacto {
+  -webkit-box-shadow: inset 0px 27px 24px -7px rgba(6, 31, 46, 1);
+  -moz-box-shadow: inset 0px 27px 24px -7px rgba(6, 31, 46, 1);
+  box-shadow: inset 0px 27px 24px -7px rgba(6, 31, 46, 1);
+}
+
 @media (max-width: 630px) {
-  .project-cards {
+  #icon-name {
+    font-size: 1.1rem;
+  }
+  .icon {
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+  }
+
+  #icon-container {
+    height: 70vh;
+    width: 80%;
+  }
+  
+  .icon:hover {
+    height: 90px;
+    width: 90px;
+    transition: 100ms;
   }
   .swiper {
     height: 77vh;
     max-height: 450px;
     width: 70%;
-  } 
+  }
+
   .presentacion {
     max-height: 600px;
-  } 
+  }
+
   .img {
     height: 150px;
     width: 150px;
   }
+
   #card-description {
     top: 150px;
   }
+
   .inicio-h1 {
     font-size: 3rem;
   }
+
   .inicio-h2 {
     font-size: 1.7rem;
   }
 }
 
 .gradient {
-	background: linear-gradient(334deg, white, var(--blue), white);
-	background-size: 180% 180%;
-	animation: gradient-animation 6s ease infinite;
+  background: linear-gradient(334deg, white, var(--blue), white);
+  background-size: 180% 180%;
+  animation: gradient-animation 6s ease infinite;
 }
 
 @keyframes gradient-animation {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
