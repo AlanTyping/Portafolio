@@ -144,8 +144,9 @@
 
 @media (max-width: 630px) {
   .swiper {
-    height: 55vh;
-    width: 80%;
+    height: 65vh;
+    max-height: 500px;
+    width: 70%;
   } 
   .presentacion {
     max-height: 600px;
