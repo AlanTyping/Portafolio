@@ -150,10 +150,10 @@
 
 @media (max-width: 630px) {
   .project-cards {
-    height: 200px;
   }
   .swiper {
-    height: 500px;
+    height: 70vh;
+    max-height: 510px;
     width: 70%;
   } 
   .presentacion {
