@@ -43,7 +43,7 @@ export default function Contacto() {
     <>
       <section id='contacto' className='h-screen w-full flex bg-[#00a2ff] justify-center items-center bg-cover bg-center'
         style={{ "backgroundImage": `url(${mob3})` }}>
-        <div id='icon-container' className='max-w-[400px] min-w-[300px] h-[80%] rounded-[30px] p-[20px] bg-[rgba(0,0,0,0.6)]
+        <div id='icon-container' className='max-w-[350px] min-w-[300px] h-[83%] rounded-[30px] p-[20px] bg-[rgba(0,0,0,0.6)]
         text-white flex flex-col text-[1.5rem] items-center text-center justify-evenly'>
           <h1 id='contact-title' className='Fjalla-One text-[2rem]'>Contact me</h1>
           <div className='w-[70%] h-[90%] flex justify-evenly items-center flex-wrap'>
