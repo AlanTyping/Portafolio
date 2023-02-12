@@ -238,7 +238,7 @@
   }
   .swiper {
     height: 77vh;
-    max-height: 500px;
+    max-height: 480px;
     width: 70%;
   }
 
@@ -252,7 +252,7 @@
   }
 
   #card-info {
-    top: 200px;
+    top: 170px;
   }
 
   .inicio-h1 {
