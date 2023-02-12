@@ -25,7 +25,7 @@ export default function Projects() {
       link: 'https://flashtyping.netlify.app/',
       opacity: 'opacity',
       description:
-        'Página de mecanografía con react y tailwind para testear qué tan rápido escribis con el teclado de la pc. Entretenido para pasar el rato'
+        `Typing game to test your velocity with the pc keyboard. This one was made with react and tailwind css, and it's the project with which I learned the most so far0`
     },
     {
       name: 'Co:here AI',
