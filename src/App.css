@@ -208,9 +208,6 @@
 }
 
 @media (max-width: 630px) {
-  .title-query {
-    margin-top: 70px;
-  }
   #icon-name {
     font-size: 1.1rem;
   }
@@ -229,7 +226,7 @@
     font-size: 2rem;
   }
   .query {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .icon:hover {
     height: 90px;
@@ -237,7 +234,7 @@
     transition: 100ms;
   }
   .swiper {
-    height: 77vh;
+    height: 85vh;
     max-height: 480px;
     width: 70%;
   }
@@ -252,7 +249,7 @@
   }
 
   #card-info {
-    top: 170px;
+    top: 160px;
   }
 
   .inicio-h1 {
