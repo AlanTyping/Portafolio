@@ -208,6 +208,12 @@
 }
 
 @media (max-width: 630px) {
+  #card-name {
+    font-size: 1.7rem;
+  }
+  #card-description {
+    font-size: 0.86rem;
+  }
   #icon-name {
     font-size: 1.1rem;
   }
@@ -216,7 +222,12 @@
     width: 85px;
     cursor: pointer;
   }
-
+  .link {
+    height: 40px;
+  }
+  .link h2 {
+    font-size: 1.3rem;
+  }
   #icon-container {
     min-height: 450px;
     height: 70vh;
@@ -235,7 +246,7 @@
   }
   .swiper {
     height: 85vh;
-    max-height: 460px;
+    max-height: 440px;
     width: 65%;
   }
 
@@ -249,7 +260,7 @@
   }
 
   #card-info {
-    top: 160px;
+    top: 150px;
   }
 
   .inicio-h1 {
