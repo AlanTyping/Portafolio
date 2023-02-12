@@ -291,8 +291,8 @@
   }
 
   .img {
+    width: 200px;
     height: 150px;
-    width: 150px;
   }
 
   #card-info {
