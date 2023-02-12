@@ -164,6 +164,12 @@
 }
 
 @media (min-width: 1900px) {
+  .nav-section {
+    font-size: 1.3rem;
+  }
+  .nav-section:hover {
+    font-size: 1.6rem;
+  }
   #contact-title {
     font-size: 3rem;
   }
@@ -276,6 +282,99 @@
 
   .inicio-h2 {
     font-size: 1.7rem;
+  }
+}
+
+
+
+
+@media (min-width: 3000px) {
+  #home-container {
+    height: 820px;
+  }
+  .home {
+    border: 30px solid var(--orange);
+  }
+  #home {
+    height: 850px;
+   }
+  #contact-img {
+    height: 370px;
+    width: 370px;
+    margin-top: 50px;
+  }
+  .inicio-h1 {
+    font-size: 9rem;
+    margin-top: 30px;
+  }
+  .inicio-h2 {
+    font-size: 7rem;
+  }
+  .presentacion {
+    padding: 100px;
+  }
+  .title-query {
+    margin-top: 100px;
+    font-size: 6rem;
+  }
+  #proyectos {
+    background-color: #121922;
+  }
+  .query {
+    font-size: 4.5rem;
+  }
+  #card-info {
+    top: 450px;
+  }
+  #card-name {
+    font-size: 5rem;
+  }
+  #card-description {
+    font-size: 3rem;
+  }
+  .swiper {
+    max-height: 1300px;
+    width: 800px;
+  }
+  .link {
+    height: 200px;
+  }
+  .link h2 {
+    font-size: 4rem;
+  }
+  .link:hover h2 {
+    font-size: 5rem;
+  }
+  .img {
+    width: 800px;
+    height: 400px;
+  }
+  .icon {
+    height: 220px;
+    width: 220px;
+  }
+  .icon:hover {
+    height: 250px;
+    width: 250px;
+  }
+  #icon-name {
+    font-size: 3.5rem;
+  }
+  #contact-title {
+    font-size: 5rem;
+  }
+  #icon-container {
+    max-width: 1000px;
+  }
+  #nav {
+    height: 130px;
+    max-width: 1000px;
+  }
+  .nav-section {
+    font-size: 3rem;
+  }
+  .nav-section:hover {
+    font-size: 3.5rem;
   }
 }
 
