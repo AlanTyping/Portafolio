@@ -235,6 +235,10 @@
   #icon-container {
     max-width: 500px;
   }
+ #contact-img {
+  height: 220px;
+  width: 220px;
+ }
 }
 
 @media (min-width: 2036px) {
@@ -244,6 +248,10 @@
 }
 
 @media (max-width: 630px) {
+  #contact-img {
+    height: 130px;
+    width: 130px;
+  }
   #card-name {
     font-size: 1.7rem;
   }
@@ -302,9 +310,8 @@
   .inicio-h1 {
     font-size: 3rem;
   }
-
   .inicio-h2 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
 }
 
