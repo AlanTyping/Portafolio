@@ -39,7 +39,14 @@ export default function Projects() {
       img: SpeedCube,
       link: 'https://speedcube-timer.vercel.app/',
       description:
-        'A web app made with react, which i use in order to automatically set my solve times and then, make an average with the previous values (not for mobile yet)'
+        'A web app made with react, which i use in order to automatically set my solve times and then, make an average with the previous values (not for mobile yet).'
+    },
+    {
+      name: 'Weather-app',
+      img: weather,
+      link: 'https://weather-app-opal-ten.vercel.app/',
+      description:
+        'Web app using weatherAPI in order to see weather data at live time in almost all the places in the world.'
     },
     {
       name: 'QUIZ',
@@ -48,13 +55,6 @@ export default function Projects() {
       description:
         'Quiz game with basic questions to test your knowledge about HTML and CSS.'
     },
-    {
-      name: 'Weather-app',
-      img: weather,
-      link: 'https://weather-app-opal-ten.vercel.app/',
-      description:
-        'Web app using weatherAPI in order to see weather data at live time in almost all the places of the world.'
-    }
   ]
   return (
     <>

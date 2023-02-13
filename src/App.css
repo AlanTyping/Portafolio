@@ -154,12 +154,13 @@
 }
 
 .swiper-slide:nth-child(4n) {
-  background-color: #027400;
+  background-color: #0a323c;
 }
 
 .swiper-slide:nth-child(5n) {
-  background-color: #0a323c;
+  background-color: #027400;
 }
+
 
 #contacto {
   -webkit-box-shadow: inset 0px 27px 24px -7px rgba(6, 31, 46, 1);
