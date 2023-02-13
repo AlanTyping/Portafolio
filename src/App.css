@@ -432,6 +432,7 @@
   .link h2 {
     height: 30px;
     font-size: 1.3rem;
+    padding-left: 10px;
   }
 } 
 

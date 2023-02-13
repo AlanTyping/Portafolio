@@ -17,7 +17,7 @@ export default function Cards({img, name, description, link, opacity}) {
         <a href={link}
         className='w-full h-[70px] cursor-pointer link items-center p-[30px] border-t-[2px] flex absolute bottom-0' 
         target="_blanck">
-            <h2 className='text-[1.6rem] Fjalla-One'>VISITAR PÁGINA</h2>
+            <h2 className='text-[1.6rem] Fjalla-One'>VISIT PAGE</h2>
         </a>
     </div>
     </>
