@@ -161,7 +161,6 @@
   background-color: #027400;
 }
 
-
 #contacto {
   -webkit-box-shadow: inset 0px 27px 24px -7px rgba(6, 31, 46, 1);
   -moz-box-shadow: inset 0px 27px 24px -7px rgba(6, 31, 46, 1);
@@ -410,6 +409,40 @@
   }
 }
 
+/* phone adjust  */
+
+@media (max-height: 600px) {
+  .swiper {
+    height: 400px;
+  }
+
+  .link {
+    height: 30px;
+    padding: 20px;
+  }
+
+  #card-description {
+    font-size: 0.8rem;
+  }
+
+  .link:hover h2 {
+    font-size: 1.5rem;
+  }
+
+  .link h2 {
+    height: 30px;
+    font-size: 1.3rem;
+  }
+} 
+
+
+
+
+
+
+
+
+
 .gradient {
   background: linear-gradient(334deg, white, var(--blue), white);
   background-size: 180% 180%;
@@ -473,6 +506,8 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
 
 #stars {
   z-index: -1;
