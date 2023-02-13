@@ -419,6 +419,10 @@
     height: 400px;
   }
 
+  #card-info {
+    top: 154px;
+  }
+
   .link {
     height: 30px;
     padding: 20px;
