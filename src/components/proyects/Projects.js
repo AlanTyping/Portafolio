@@ -46,14 +46,14 @@ export default function Projects() {
       img: quiz,
       link: 'https://programming-quiz-azure.vercel.app/',
       description:
-        'Página manimalista para probar tus conocimientos acerca de css y html con un par de pregutas básicas'
+        'Quiz game with basic questions to test your knowledge about HTML and CSS.'
     },
     {
       name: 'Weather-app',
       img: weather,
       link: 'https://weather-app-opal-ten.vercel.app/',
       description:
-        'Con este proyecto, pongo en práctica el llamado a una API externa. Uso axios porque me parece el mejor método'
+        'Web app using weatherAPI in order to see weather data at live time in almost all the places of the world.'
     }
   ]
   return (
