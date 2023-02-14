@@ -10,7 +10,7 @@ export default function Presentación() {
                 <p className='Nunito-Sans query'>
                     I'm an 18-year-old guy. Constantly setting different goals
                     just by thinking into projects that i consider to be
-                    interesting. So, i can optimize my learning process just by actually learning
+                    interesting. So, i can optimize my learning process by actually learning
                     the stuff that i need in order to pursue my goals.
                 </p>
                 <p className='Nunito-Sans query'>
