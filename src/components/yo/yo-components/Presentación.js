@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Presentación() {
     return (
-        <section id='sobre-mí' className='h-screen w-[100%] bg-[rgba(0,0,0,0.53)] flex justify-center items-center bg-cover bg-center'>
+        <section id='sobre-mí' className='h-screen w-[100%] bg-[rgba(0,0,0,0.35)] flex justify-center items-center bg-cover bg-center'>
             <div className='w-[80%] presentacion h-[80%] rounded-[30px] p-[30px] bg-[rgba(0,0,0,0.6)]
              text-white flex items-center flex-col text-[1.5rem] justify-start justify-evenly '>
                 <h1 className='Fjalla-One text-[2rem] title-query'>About me 🌘</h1>
