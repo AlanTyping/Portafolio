@@ -247,80 +247,6 @@
   }
 }
 
-@media (max-width: 630px) {
-  #contact-img {
-    height: 130px;
-    width: 130px;
-  }
-  #card-name {
-    font-size: 1.6rem;
-  }
-  #card-description {
-    font-size: 0.84rem;
-  }
-  #card-info {
-    top: 160px;
-  }
-
-  #icon-name {
-    font-size: 1.1rem;
-  }
-  .icon {
-    height: 85px;
-    width: 85px;
-    cursor: pointer;
-  }
-  .link {
-    height: 40px;
-  }
-  .link:hover h2 {
-    font-size: 1.5rem;
-  }
-  .link h2 {
-    font-size: 1.3rem;
-  }
-  #icon-container {
-    min-height: 450px;
-    height: 70vh;
-    width: 80%;
-  }
-  .title-query {
-    font-size: 2rem;
-  }
-  .query {
-    font-size: 1rem;
-  }
-  .icon:hover {
-    height: 90px;
-    width: 90px;
-    transition: 100ms;
-  }
-  .swiper {
-    height: 85vh;
-    max-height: 440px;
-    width: 65%;
-  }
-
-  .presentacion {
-    max-height: 700px;
-  }
-
-  .img {
-    width: 200px;
-    height: 150px;
-  }
-
-  .inicio-h1 {
-    font-size: 3rem;
-  }
-  .inicio-h2 {
-    font-size: 2rem;
-  }
-}
-
-
-
-
 @media (min-width: 3000px) {
   #home-container {
     height: 820px;
@@ -412,7 +338,73 @@
   }
 }
 
-/* phone adjust  */
+/* Phone adjust */
+
+@media (max-width: 630px) {
+  #card-name {
+    font-size: 1.6rem;
+  }
+  #card-description {
+    font-size: 0.84rem;
+  }
+  #card-info {
+    top: 160px;
+  }
+  #icon-name {
+    font-size: 1.1rem;
+  }
+  .icon {
+    height: 85px;
+    width: 85px;
+    cursor: pointer;
+  }
+  .link {
+    height: 40px;
+  }
+  .link:hover h2 {
+    font-size: 1.5rem;
+  }
+  .link h2 {
+    font-size: 1.3rem;
+  }
+  #icon-container {
+    min-height: 450px;
+    height: 70vh;
+    width: 80%;
+  }
+  .title-query {
+    font-size: 2rem;
+  }
+  .query {
+    font-size: 1rem;
+  }
+  .icon:hover {
+    height: 90px;
+    width: 90px;
+    transition: 100ms;
+  }
+  .swiper {
+    height: 85vh;
+    max-height: 440px;
+    width: 65%;
+  }
+  .presentacion {
+    max-height: 700px;
+  }
+  .img {
+    width: 200px;
+    height: 150px;
+  }
+  .inicio-h1 {
+    font-size: 3rem;
+  }
+  .inicio-h2 {
+    font-size: 2rem;
+  }
+}
+
+
+/*moto g4 phone adjust  */
 
 @media (max-height: 600px) {
   .swiper {
@@ -422,7 +414,14 @@
   #card-info {
     top: 154px;
   }
-
+  .icon {
+    height: 75px;
+    width: 75px;
+  }
+  .icon:hover {
+    height: 85px;
+    width: 85px;
+  }
   .link {
     height: 30px;
     padding: 20px;

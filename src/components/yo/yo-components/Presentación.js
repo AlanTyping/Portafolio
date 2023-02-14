@@ -1,10 +1,4 @@
 import React from 'react';
-import mob1 from '../img/mob1.png';
-import mob2 from '../img/mob2.png';
-import piano from '../img/piano.jpg';
-import cubo from '../img/cubo.jpg';
-import aicube from '../img/aicube.png';
-import ia from '../img/ia.png';
 
 
 export default function Presentación() {
