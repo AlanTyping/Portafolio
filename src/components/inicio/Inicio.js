@@ -3,8 +3,8 @@ import nieve from './images/nieve.jpg';
 export default function Inicio() {
   return (
     <>
-      <section id='home' className='h-[310px] w-[100%] home border-b-[10px] border-[var(--orange)] flex justify-center items-center bg-center bg-cover bg-no-repeat'>
-        <div id='home-container' className='w-full home-container h-[300px] flex justify-center items-center absolute top-0 bg-center bg-cover' 
+      <section id='home' className='h-[250px] w-[100%] home border-b-[10px] border-[var(--orange)] flex justify-center items-center bg-center bg-cover bg-no-repeat'>
+        <div id='home-container' className='w-full home-container h-[240px] flex justify-center items-center absolute top-0 bg-center bg-cover' 
         style={{"backgroundImage": `url(${nieve})`}}>
           <div className={`w-[100%] h-[100%] justify-evenly p-[20px] flex justify-center items-center bg-[rgba(0,0,0,0.60)] text-white flex-col`}>
             <div className='w-full h-[200px] flex justify-center text-center flex-col'>
