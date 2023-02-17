@@ -450,6 +450,46 @@
   }
 } 
 
+/* phone rotate / some notebooks */
+
+@media (max-height: 606px) and (min-width: 453px) {
+  .swiper {
+    margin-top: 40px;
+    height: 85vh;
+    max-height: 370px;
+    width: 240px;
+  }
+  #card-name {
+    font-size: 1.5rem;
+  }
+  #card-description {
+    font-size: 0.83rem;
+  }
+  #card-info {
+    top: 125px;
+  }
+  .img {
+    width: 220px;
+    height: 120px;
+  }
+  .query {
+    font-size: 1.3rem;
+  }
+  .icon {
+    height: 73px;
+    width: 73px;
+  }
+  #icon-name {
+    font-size: 1.3rem;
+  }
+}
+
+
+
+
+
+
+
 
 
 

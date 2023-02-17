@@ -21,7 +21,7 @@ import { EffectCards } from "swiper";
 export default function Projects() {
   const cardsData = [
     {
-      name: 'FLASH TYPING',
+      name: 'Flash Typing',
       img: typing,
       link: 'https://flashtyping.netlify.app/',
       opacity: 'opacity',
@@ -49,7 +49,7 @@ export default function Projects() {
         'Web app using weatherAPI in order to see weather data at live time in almost all the places in the world.'
     },
     {
-      name: 'QUIZ',
+      name: 'Quiz',
       img: quiz,
       link: 'https://programming-quiz-azure.vercel.app/',
       description:

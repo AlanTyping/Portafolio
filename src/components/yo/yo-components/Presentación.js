@@ -16,7 +16,7 @@ export default function Presentación() {
                 <p className='Nunito-Sans query'>
                     Speaking a bit about myself, occasionally, i go out for a run.
                     Often, i interact with people through different communities and that helps me 
-                    to be more socially active and learn new things while providing some value. I also like playing piano
+                    to be more socially active and learn new things while providing value. I also like playing piano
                     and solving the rubik's cube, i think that those and also programming, are my main hobbies. 
                 </p>
             </div>
