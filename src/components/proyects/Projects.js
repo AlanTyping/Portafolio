@@ -60,7 +60,7 @@ export default function Projects() {
     <>
       <section id='proyectos' className='h-screen w-[100%] flex relative flex-col justify-center items-center text-white'>
         <div className='w-full project-cards absolute top-0 h-[60px] flex items-center justify-center m-3'>
-          <h2 className='text-[2rem] title-query Fjalla-One'>Projects 🃏</h2>
+          <h2 id='projects-title' className='text-[2.3rem] title-query Fjalla-One'>Projects 🃏</h2>
         </div>
         <Swiper
           effect={"cards"}

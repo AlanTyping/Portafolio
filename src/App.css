@@ -176,6 +176,9 @@
   .title-query {
     font-size: 4rem;
   }
+  #projects-title {
+    margin-top: 100px;
+  }
   .query {
     font-size: 2.2rem;
   }
