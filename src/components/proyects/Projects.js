@@ -32,7 +32,7 @@ export default function Projects() {
       name: 'Co:here AI',
       img: cohere,
       link: 'https://midu-hackaton.vercel.app/',
-      description: 'Web app that uses Co:Here API and has two different sections. The first section is useful for tokenizing words, and the second one, includes a small but cool game.'
+      description: 'Web app that uses Co:Here API and has two different sections. The first section includes a small but cool game, and the second one is useful for tokenizing words.'
     },
     {
       name: 'Speedcube Timer',
